@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Registration Form</title>
+<link rel="stylesheet" href="style1.css">
+</style>"
+</head>
+<body>
+    <div class="container">
+    <center><img src="images.jpg" alt="photo" height="140" width="140" ></center>
+    <h1><center>WE ARE <span> HIRING</span></center></h1>
+    <h1><center><strong>Job Registration Form</strong></center></h1>
+    <h6><center>Please fill this form to apply for the job.Fields with * are required</center></h6>
+    <form>
+        <label>Full Name: *        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>
+        <label>Email Address: *    </label>&nbsp;&nbsp;&nbsp;
+        <input type="email" required><br><br>
+        <label>Phone Number: *     </label>&nbsp;&nbsp;&nbsp;
+        <input type="tel" required><br><br>
+        <label>Address: *          </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" required><br><br>
+        <label>Role Applying For</label>
+        <select required>
+            <option>Select Job</option>
+            <option>Designer/UX Designer</option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Software Engineer</option>
+            <option>FullStack Developer</option>
+            <option>Data Analyst Engineer</option>
+        </select><br><br>
+        <label>Expected Salary: *</label>
+        <input type="number" required><br><br>
+        <label>Available Start Date: *</label>
+        <input type="date" required><br><br>
+        <label>Preferred Work Type:  *</label>
+        <select required>
+            <option>Select</option>
+            <option>Full-Time</option>
+            <option>Part-Time</option>
+            <option>Internship</option>
+            <option>Remote</option>
+        </select><br><br>
+        <label>Experience (Years): *</label>
+        <input type="number" min="0" required><br><br>
+        <label>Upload Resume (DOC/PDF): *</label>
+        <input type="file" required><br><br>
+        <label>LinkedIn Profile</label>
+        <input type="url" required><br><br>
+        <div class="check">
+            <input type="checkbox" required>
+            <span>&nbsp;&nbsp;I agree to the privacy policy and terms & conditions</span>
+        </div><br><br>
+        <button type="submit">Submit Application</button>
+    </form>
+    </div>
+    
+</body>
+</html>
