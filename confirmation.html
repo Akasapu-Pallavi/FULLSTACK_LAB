@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShowTime - Booking Confirmation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+
+        <div class="logo">🎬 ShowTime</div>
+
+        <div class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="index.html">Logout</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Confirmation Section -->
+    <section class="confirmation-section">
+
+        <div class="confirmation-container">
+
+            <div class="success-icon">
+                ✅
+            </div>
+
+            <h1>Booking Confirmed!</h1>
+
+            <p class="confirmation-text">
+                Your movie tickets have been booked successfully.
+            </p>
+
+
+            <!-- Booking Details -->
+            <div class="booking-details">
+
+                <h2>Booking Details</h2>
+
+                <div class="detail-row">
+                    <span>Booking ID</span>
+                    <strong id="bookingId">-</strong>
+                </div>
+
+                <div class="detail-row">
+                    <span>Movie</span>
+                    <strong id="movie">-</strong>
+                </div>
+
+                <div class="detail-row">
+                    <span>Date</span>
+                    <strong id="date">-</strong>
+                </div>
+
+                <div class="detail-row">
+                    <span>Show Time</span>
+                    <strong id="time">-</strong>
+                </div>
+
+                <div class="detail-row">
+                    <span>Tickets</span>
+                    <strong id="tickets">-</strong>
+                </div>
+
+                <div class="detail-row">
+                    <span>Selected Seats</span>
+                    <strong id="seat">-</strong>
+                </div>
+
+            </div>
+
+
+            <a href="dashboard.html" class="book-btn">
+                Back to Dashboard
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>© 2026 ShowTime. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
