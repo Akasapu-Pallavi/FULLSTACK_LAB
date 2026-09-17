@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Pallavi",
+    "course": "Node.js"
+  },
+  {
+    "id": 2,
+    "name": "Reshma",
+    "course": "JavaScript"
+  },
+  {
+    "id": 3,
+    "name": "Lekhana",
+    "course": "Node.js"
+  },
+  {
+    "id": 4,
+    "name": "Vanitha",
+    "course": "Express.js"
+  },
+  {
+    "id": 5,
+    "name": "Bhagya",
+    "course": "HTML"
+  }
+]
